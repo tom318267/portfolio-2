@@ -17,7 +17,7 @@ const Work = ({ img, name, info, url }) => {
           rel="noreferrer"
           target="_blank"
         >
-          <img className="rounded-lg" src={img} alt="img" />
+          <img className="rounded-md" src={img} alt="img" />
         </a>
 
         <p className="text-xs md:text-xl w-1/2">{info}</p>

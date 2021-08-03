@@ -8,7 +8,7 @@ const Work = ({ img, name, info, url }) => {
   return (
     <div className="work-flex text-white">
       <div
-        data-aos="zoom-in-right"
+        data-aos="fade-up"
         className="work-items flex gap-5 w-full font-open mb-20 text-sm md:text-lg items-center"
       >
         <a
@@ -20,7 +20,7 @@ const Work = ({ img, name, info, url }) => {
           <img src={img} alt="img" />
         </a>
 
-        <p className="md:text-xl w-1/2">{info}</p>
+        <p className="text-xs md:text-xl w-1/2">{info}</p>
       </div>
     </div>
   );

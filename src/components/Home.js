@@ -11,7 +11,7 @@ const Home = () => {
           <p className="text-white font-extralight text-lg md:text-2xl mb-5 font-open">
             I specialize in front-end and back-end development.
           </p>
-          <button className="hvr-bounce-in px-8 py-2 w-full md:w-1/3 md:text-xl rounded-3xl text-black font-semibold font-open bg-blue  active:bg-hoverBlue">
+          <button className="hvr-bounce-in px-8 py-2 w-4/5 md:w-1/3 md:text-xl rounded-3xl text-black font-semibold font-open bg-blue active:bg-hoverBlue">
             <a href="#my-work">My Work</a>
           </button>
         </div>

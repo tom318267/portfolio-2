@@ -1,6 +1,7 @@
 import triumph from "./assets/triumph.png";
 import storybook from "./assets/storybook.png";
 import snapchat from "./assets/snapchat.png";
+import slack from "./assets/slack.png";
 
 export const DATA = [
   {
@@ -22,5 +23,11 @@ export const DATA = [
     info: "Snapchat Clone is a clone of Snapchat made with React, Redux, Material UI, and Firebase!",
     img: snapchat,
     url: "https://snapchat-clone-bb3e6.web.app/",
+  },
+  {
+    name: "Slack Clone",
+    info: "Slack Clone is a clone of Slack made with React, Redux, Material UI, and Firebase!",
+    img: slack,
+    url: "https://slack-clone-23df2.firebaseapp.com/",
   },
 ];

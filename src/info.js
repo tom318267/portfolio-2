@@ -7,6 +7,7 @@ import splash from "./assets/splash.png";
 import delectable from "./assets/delectable.png";
 import aboveall from "./assets/aboveall.png";
 import bakery from "./assets/bakery.png";
+import infinite from "./assets/infinite.png";
 
 export const DATA = [
   {
@@ -42,6 +43,13 @@ export const DATA = [
     info: "LinkedIn is a clone of LinkedIn made with React, Redux, Material UI, and Firebase!",
     img: linkedin,
     url: "https://linked-in-clone-d75b2.web.app/",
+  },
+
+  {
+    name: "Infinite",
+    info: "Infinite is a website made with React, Redux, Tailwind CSS, and Firebase! You can search for your favorite superhero!",
+    img: infinite,
+    url: "https://infinite.vercel.app/",
   },
 
   {

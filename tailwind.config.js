@@ -26,6 +26,7 @@ module.exports = {
     extend: {
       animation: ["motion-safe", "motion-reduce"],
       backgroundColor: ["active"],
+      flex: ["even"],
     },
   },
   plugins: [],

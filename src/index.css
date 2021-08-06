@@ -60,6 +60,5 @@
 
   .work-flex {
     display: flex;
-    flex-direction: row-reverse;
   }
 }

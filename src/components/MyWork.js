@@ -12,7 +12,14 @@ const MyWork = () => {
         My Work
       </h2>
       {DATA.map(({ img, name, info, url }) => (
-        <Work key={name} name={name} img={img} info={info} url={url} />
+        <Work
+          className="work-item"
+          key={name}
+          name={name}
+          img={img}
+          info={info}
+          url={url}
+        />
       ))}
     </div>
   );
